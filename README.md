@@ -1,4 +1,8 @@
-# Master_Thesis
+# Empirical understanding of semantic & syntactic text similarity measurements for Noisy sentences in Question-Answering system
+
+## I have considered two approaches in the noise generation part. 
+
+## I. Typographic errors based, which happens due to different kind of typing mistakes in social communication.
 Designing a system capable of handling natural language queries is a non-trivial task and can be approached in various ways. One possible approach is to compile a database of
 plausible queries and responses, then compare the user input against them and return the best match's response. This, in turn, requires some similarity measure to provide a
 quantitative score of similarity between two natural-language sentences. Some of the important similarity measures are
@@ -26,7 +30,11 @@ The main contribution of this work has been listed below:
   
    • Analysis of the absolute errors derived for different methods on the same input data with noise.
         
-        
+## II. Pronunciation-based errors as noise that happens due to different language backgrounds.
+
+In this approach, noise generation part has three different methods. Depending on the similarly pronounced vowels or consonants I have generated noisy datasets from the original corpus, also in another test case I generated the noise mixing both vowels and consonants on a random basis.
+
+
         
 ## References
 <a id="1">[1]</a>
